@@ -1,26 +1,36 @@
-<a href="https://portfolio.calixteair.fr"><img src="assets/header.svg" alt="Calixte Reymond, cybersécurité et self-hosting" width="100%"></a>
+## Salut, moi c'est Calixte
 
-Étudiant ingénieur cyber à l'**ESIEA**, alternant à la **RATP**. Tout ce que je construis tourne sur un VPS que j'administre seul : Docker Compose, SSO Keycloak, secrets OpenBao, CI Jenkins et un SOC maison (Wazuh, Falco, CrowdSec, Prometheus, Grafana).
+Je suis en cycle ingénieur cyber à l'ESIEA et en alternance à la RATP, où je m'occupe de la sécurité des SI du matériel roulant. Avant ça : un BUT info à Belfort et un an de dev Java/Angular à la BRED.
 
-<a href="https://github.com/Calixteair/DevSecVault"><img src="assets/devsecvault.svg" alt="DevSecVault" width="100%"></a>
+À côté, j'héberge mes projets sur mon propre VPS. Je m'occupe de tout : Docker, Keycloak pour le SSO, OpenBao pour les secrets, Jenkins pour la CI et un petit SOC (Wazuh, Falco, CrowdSec) pour surveiller le tout.
 
-<a href="https://github.com/Calixteair/kalidoku"><img src="assets/kalidoku.svg" alt="kalidoku" width="49.4%"></a>
-<a href="https://github.com/Calixteair/chessWeb"><img src="assets/chess.svg" alt="Jeu d'échecs multijoueur" width="49.4%"></a>
+### DevSecVault
 
-<sub>Les échecs, c'est quatre dépôts : <a href="https://github.com/Calixteair/chessGame">règles</a> · <a href="https://github.com/Calixteair/chessServer">serveur</a> · <a href="https://github.com/Calixteair/chessWeb">client web</a> · <a href="https://github.com/Calixteair/chessClientFX">client JavaFX</a></sub>
+[vault.calixteair.fr](https://vault.calixteair.fr) · [code](https://github.com/Calixteair/DevSecVault)
 
-### Aussi dans l'atelier
+Un coffre-fort pour les gens qui font de la cyber : snippets, payloads chiffrés en AES-256-GCM, partage de secrets chiffré de bout en bout et une vingtaine d'outils qui tournent entièrement dans le navigateur. Angular 21, Symfony 8, Keycloak, Meilisearch.
 
-**[cyber-daily-brief](https://github.com/Calixteair/cyber-daily-brief)** veille cyber quotidienne rédigée par un agent Claude Code planifié<br>
-**[DocConnect](https://github.com/Calixteair/DocConnect)** rendez-vous médicaux, téléconsultation Jitsi, chatbot d'orientation (Symfony 8)<br>
-**[autoGymglish](https://github.com/Calixteair/autoGymglish)** extension Chrome MV3 qui répond aux exercices Gymglish via un LLM<br>
-**[ai-jobs-docker](https://github.com/Calixteair/ai-jobs-docker)** dashboard Streamlit + MySQL sur le marché de l'emploi IA
+[![DevSecVault](assets/devsecvault.webp)](https://vault.calixteair.fr)
 
-<img src="assets/parcours.svg" alt="Parcours : IUT Belfort-Montbéliard (2022), BRED (2024), ESIEA (2025), RATP (2026), ingénieur (2028)" width="100%">
+### Échecs en ligne
 
-### Outillage
+[chess.calixteair.fr](https://chess.calixteair.fr) · [règles](https://github.com/Calixteair/chessGame) · [serveur](https://github.com/Calixteair/chessServer) · [client web](https://github.com/Calixteair/chessWeb) · [client JavaFX](https://github.com/Calixteair/chessClientFX)
 
-<img src="https://skillicons.dev/icons?i=java,ts,rust,py,php,c,angular,react,svelte,astro,spring,symfony&theme=dark&perline=12" alt="Java, TypeScript, Rust, Python, PHP, C, Angular, React, Svelte, Astro, Spring, Symfony"><br>
-<img src="https://skillicons.dev/icons?i=docker,linux,bash,nginx,jenkins,githubactions,prometheus,grafana,postgres,mysql&theme=dark&perline=12" alt="Docker, Linux, Bash, Nginx, Jenkins, GitHub Actions, Prometheus, Grafana, PostgreSQL, MySQL">
+Tout en Java côté back : un moteur de règles et un serveur multithread qui arbitre les parties. Le client web en React et le client JavaFX se connectent au même serveur, donc on peut jouer l'un contre l'autre depuis les deux.
 
-<sub>Bannière, cartes et parcours générés par <a href="scripts/gen.py">scripts/gen.py</a> : texte vectorisé, animations en CSS pur.</sub>
+[![Échecs en ligne](assets/chess.webp)](https://chess.calixteair.fr)
+
+### Portfolio
+
+[portfolio.calixteair.fr](https://portfolio.calixteair.fr) · [code](https://github.com/Calixteair/portfolio)
+
+Mon portfolio en 3D, avec Astro, React Three Fiber et three.js. Il y a une version classique pour ceux qui veulent juste lire.
+
+[![Portfolio](assets/portfolio.webp)](https://portfolio.calixteair.fr)
+
+### Le reste
+
+- [kalidoku](https://github.com/Calixteair/kalidoku) : un puzzle quotidien à la Connections, backend en Rust ([jouer](https://kalidoku.calixteair.fr))
+- [cyber-daily-brief](https://github.com/Calixteair/cyber-daily-brief) : ma veille cyber, générée chaque matin par un agent Claude Code
+- [DocConnect](https://github.com/Calixteair/DocConnect) : prise de rendez-vous médicaux avec téléconsultation, projet d'école
+- [autoGymglish](https://github.com/Calixteair/autoGymglish) : une extension Chrome qui fait mes exercices Gymglish (je valide quand même à la main)
